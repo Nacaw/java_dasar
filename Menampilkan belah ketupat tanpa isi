@@ -24,7 +24,7 @@ for (int k = 1; k <= l; k++) {
 if (k == 1 || k == l) {
 System.out.print("*");
 } else {
-System.out.print(" ");
+System.out.print(" "); //gunakan * untuk menampilkan belah ketupat setengah/full isi
 }
 }
 l += 2;
@@ -39,7 +39,7 @@ for (int j = l; j > 0; j--) {
 if (j == 1 || j == l) {
 System.out.print("*");
 } else {
-System.out.print(" ");
+System.out.print(" "); //gunakan * untuk menampilkan belah ketupat setengah/full isi
 }
 }
 l -= 2;
